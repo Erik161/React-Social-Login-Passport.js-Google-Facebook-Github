@@ -32,3 +32,21 @@
 
 }
 
+.home{
+  display: flex;
+  padding: 50px 100px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 30%;
+  padding: 10px;
+}
+
+.img{
+  width: 100%;
+}
+
+
+
