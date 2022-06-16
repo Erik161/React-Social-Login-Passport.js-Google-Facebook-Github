@@ -1,5 +1,5 @@
 import React from 'react';
-
+import avatar from '../img/E.jpg'
 
 function Navbar() {
   return (
@@ -8,7 +8,7 @@ function Navbar() {
         <ul className='list'>
             <li className='listItem'>
                 <img 
-                src='../img/E.jpg' 
+                src={avatar} 
                 alt='' 
                 className='avatar'
                 />
